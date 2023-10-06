@@ -3,8 +3,8 @@
     "title": "Overview",
     "display": "hidden"
   },
-  "policy": "RDM Policy",
-  "lifecycle": "RDM Lifecycle",
+  "policy": "RDM policy",
+  "timeline": "RDM timeline",
   "about": {
     "title": "About RDM",
     "type": "page"
