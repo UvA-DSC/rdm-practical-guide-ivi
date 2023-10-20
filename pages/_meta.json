@@ -1,15 +1,27 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "title": "Overview",
+    "display": "hidden"
+  },
+  "policy": "RDM policy",
+  "timeline": "RDM timeline",
   "about": {
-    "title": "About",
+    "title": "About RDM",
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+    "title": "Contact Info",
+    "type": "menu",
+    "items": {
+      "email": {
+        "title": "Email",
+        "href": "mailto:rdm-ivi-science@uva.nl"
+      },
+      "slack": {
+        "title": "Slack",
+        "href": "https://ivi-uva.slack.com/archives/C04RUC5K07R",
+        "newWindow": true
+      }
+    }
   }
 }
